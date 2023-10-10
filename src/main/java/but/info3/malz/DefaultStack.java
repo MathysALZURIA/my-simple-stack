@@ -33,7 +33,7 @@ public class DefaultStack implements SimpleStack {
      */
     @Override
     public int getSize() {
-        return 0;
+        return stack.size();
     }
 
     /**
@@ -56,7 +56,7 @@ public class DefaultStack implements SimpleStack {
      */
     @Override
     public Item peek() throws EmptyStackException {
-        return null;
+        return stack.get(stack.size()-1);
     }
 
     /**
@@ -68,6 +68,8 @@ public class DefaultStack implements SimpleStack {
      */
     @Override
     public Item pop() throws EmptyStackException {
-        return null;
+        Item itemRemoved = stack.get(stack.size()-1);
+        stack.remove(stack.size()-1);
+        return itemRemoved;
     }
 }
