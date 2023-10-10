@@ -10,8 +10,14 @@ import java.util.EmptyStackException;
 public class DefaultStack implements SimpleStack {
     private ArrayList<Item> stack;
 
-    /**git
+    /**
      * Constructor de TONTON
+     *
+     *    / \
+     *    |||
+     *    //
+     *   |||
+     *   \ /
      */
     public DefaultStack() {
         this.stack = new ArrayList<Item>();
