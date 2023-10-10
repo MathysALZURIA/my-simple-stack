@@ -1,0 +1,1 @@
+Création d'une stack basique
