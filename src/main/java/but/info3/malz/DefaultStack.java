@@ -5,12 +5,19 @@ import java.util.EmptyStackException;
 
 /**
  * Class DefaultStack.
+ * TONTON LE BOSS OAH
  */
 public class DefaultStack implements SimpleStack {
     private ArrayList<Item> stack;
 
     /**
-     * Constructor
+     * Constructor de TONTON
+     *
+     *    / \
+     *    |||
+     *    //
+     *   |||
+     *   \ /
      */
     public DefaultStack() {
         this.stack = new ArrayList<Item>();
