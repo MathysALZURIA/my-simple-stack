@@ -6,6 +6,7 @@ package but.info3.malz;
  * MAAANSTRE II
  * MAAANSTER III
  * test US
+ * finito
  */
 public class DefaultItem implements Item {
 }
