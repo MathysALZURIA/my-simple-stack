@@ -5,6 +5,7 @@ package but.info3.malz;
  * MAAANSTRE
  * MAAANSTRE II
  * MAAANSTER III
+ * test US
  */
 public class DefaultItem implements Item {
 }
